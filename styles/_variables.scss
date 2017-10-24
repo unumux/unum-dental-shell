@@ -1,0 +1,39 @@
+// CONSTANTS
+$color-aqua: #2299A2;
+$color-aqua-dark: #158A93;
+$color-aqua-darker: #0B7E87;
+$color-neutral-darker: #2e2e2e;
+
+
+// THEME SPECIFIC
+$theme-secondary: $color-aqua;
+$theme-secondary-2: $color-aqua-dark;
+$theme-secondary-3: $color-aqua-darker;
+
+
+// COMPONENT SPECIFIC
+
+//My variables
+$component-border-color: $theme-secondary;
+$component-logo-border-color: $theme-secondary;
+$component-logo-text-color: $theme-secondary;
+$component-help-background-color: #fff;
+
+//Willow variables
+$component-page-content-background-color: #F7F7F7;
+$component-page-header-background-color: #fff;
+$component-button-background-color: $theme-secondary;
+$component-button-background-color-visited: $theme-secondary;
+$component-button-background-color-hover: $theme-secondary-2;
+$component-button-background-color-active: $theme-secondary-3;
+$component-button-background-color-focus: $theme-secondary;
+$component-button-text-color: #fff;
+$component-button-text-color-visited: #fff;
+$component-button-text-color-hover: #fff;
+$component-button-text-color-active: #fff;
+$component-button-text-color-focus: #fff;
+$component-banner-text-color: #fff;
+$component-feature-heading-color: #fff;
+$component-feature-border-color: #BEA97D;
+$component-icon-background-color: #BEA97D;
+$component-heading-background-color: #F2F5F7;

@@ -1,0 +1,14 @@
+&__content-section {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        padding: $space-inset-squish-l;
+        padding-bottom: $space-xl;
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+        max-width: 50%;
+    }
+}

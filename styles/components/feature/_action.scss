@@ -1,0 +1,12 @@
+&__action {
+    font-size: inherit;
+    margin: $space-inline;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        display: inline-block;
+    }
+}

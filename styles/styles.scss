@@ -1,0 +1,93 @@
+@import "node_modules/@unumux/theme-unum-default/styles";
+@import "node_modules/@unumux/willow/styles";
+@import '../styles/variables';
+
+
+// CUSTOM COMPONENT OVERRIDES
+@import '../styles/dental';
+@import './components/feature/feature';
+
+
+// WILLOW OVERRRIDES
+@import "./components/overrides/willow/banner/banner";
+@import "./components/overrides/willow/card-grid/card-grid";
+@import "./components/overrides/willow/page-content/page-content";
+@import "./components/overrides/willow/secondary-nav/secondary-nav";
+
+
+.icon-pin,
+.icon-gear,
+.icon-dental {
+    height: 100%;
+    width: 100%;
+}
+
+.icon-pin {
+    background-image: url("../../images/icon-pin.svg");
+}
+
+.icon-dental {
+    background-image: url("../../images/icon-dental.png");
+}
+
+.icon-gear {
+    background-image: url("../../images/icon-gear.png");
+}
+
+.icon-bg {
+    background-color: $component-icon-background-color;
+    border-radius: 50%;
+    height: $space-xxl;
+    margin-bottom: $space;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $space-inset;
+    width: $space-xxl;
+}
+
+.homepage-feature {
+    background-image: url("../../images/hero-image.jpg");
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1900px;
+    min-height: 100vh;
+
+    @media screen and (min-width: 1900px) {
+        overflow-x: hidden;
+    }
+}
+
+.container {
+    display: block;
+    flex-direction: initial;
+    min-height: auto;
+
+    @media (min-width: 1200px) {
+        max-width: 1260px;
+    }
+}
+
+.willow-card-grid {
+    margin-bottom: $space-xxl;
+}
+
+.up {
+    margin-top: -$space-l;    
+}
+
+.down {
+    margin-top: $space-xl;
+}
+
+.sizing {
+    @media all and (min-width: 992px) {
+        flex-basis: 40%;
+    }
+}
+
+
