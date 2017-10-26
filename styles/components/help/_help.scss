@@ -1,7 +1,7 @@
 &-help {
     
         background-color: $component-help-background-color;
-        margin-left: -15px;
+        border-radius: 8px;
         padding: $space-inset-xl;
         
         @import 'heading';
