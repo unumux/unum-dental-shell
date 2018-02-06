@@ -11,6 +11,7 @@
 // WILLOW OVERRRIDES
 @import "./components/overrides/willow/banner/banner";
 @import "./components/overrides/willow/card-grid/card-grid";
+@import "./components/overrides/willow/page-header/page-header";
 @import "./components/overrides/willow/page-content/page-content";
 @import "./components/overrides/willow/secondary-nav/secondary-nav";
 
@@ -90,4 +91,27 @@
     }
 }
 
+.willow-page-footer {
+    background-color: #fff;
+}
 
+.willow-page-footer__copyright {
+    color: #2e2e2e;
+}
+
+.willow-footer-nav__link {
+    color: #0067AD;
+
+    &:visited {
+        color: #0067AD;
+    }
+
+    &:hover {
+        color: #0067AD;
+        text-decoration: none;
+    }
+}
+
+.willow-footer-nav__link--active {
+    color: #0067AD;
+}
