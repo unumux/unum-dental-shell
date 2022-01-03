@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+    .willow-card-grid__item {
+        flex-basis: calc(50% - 1.6rem + 0.533333333333333rem) !important;
+    }
+
+    .willow-card-grid__item:nth-child(-n + 2) {
+        margin-top: 0;
+    }
+
+    .willow-card-grid__item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .willow-card-grid__item:nth-child(3n) {
+        margin-top: 1.6rem;
+        margin-right: 1.6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .willow-card-grid__item {
+        -ms-flex-preferred-size: calc(33.33333% - 1.6rem + 0.533333333333333rem);
+        flex-basis: calc(24% - 1.6rem + 0.533333333333333rem);
+    }
+
+    .willow-card-grid__item:nth-child(-n + 4) {
+        margin-top: 0;
+    }
+
+    .willow-card-grid__item:nth-child(3n) {
+        margin-right: 1.6rem;
+    }
+
+    .willow-card-grid__item:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
+.icon-teledenistry {
+    background-image: url(./../images/icon-tele-dental.png);
+}
